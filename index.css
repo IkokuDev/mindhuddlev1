@@ -1,0 +1,14 @@
+body {
+  background-color: #f8fafc;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+/* Hide scrollbar for clean horizontal scrolls */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

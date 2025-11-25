@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink, Outlet, useNavigate, useLocation } from 'react-router-dom';
+import { NavLink, Outlet, useNavigate } from 'react-router-dom';
 import { LayoutGrid, Users, MessageSquare, UserCircle, Search, Menu, X, LogOut, ChevronDown, Calendar, Network, Grid } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
@@ -9,7 +9,6 @@ const Layout = () => {
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
   const { user, logout } = useAuth();
   const navigate = useNavigate();
-  const location = useLocation();
 
   const pendingRequestsCount = user?.receivedRequests?.length || 0;
 

@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useData } from '../contexts/DataContext';
 import { useAuth } from '../contexts/AuthContext';
 import PostCard from '../components/PostCard';
-import { Users, ArrowLeft, LogIn, LogOut, Shield, MessageSquare, Plus, Settings, Save, Trash2, Search } from 'lucide-react';
+import { Users, ArrowLeft, LogIn, LogOut, Shield, MessageSquare, Settings, Save, Trash2, Search } from 'lucide-react';
 import ProfileCard from '../components/ProfileCard';
 
 const GroupDetails: React.FC = () => {

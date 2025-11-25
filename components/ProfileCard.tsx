@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { UserProfile, AvailabilityStatus } from '../types';
-import { MapPin, Briefcase, Plus, MessageCircle, Sparkles, Check, Clock, UserPlus } from 'lucide-react';
+import { MapPin, Plus, MessageCircle, Sparkles, Clock, UserPlus } from 'lucide-react';
 import { analyzeCompatibility } from '../services/geminiService';
 import { CURRENT_USER } from '../constants';
 import { useNavigate } from 'react-router-dom';

@@ -7,7 +7,7 @@ import { Camera, Video, Calendar, ArrowRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const Home: React.FC = () => {
-  const { posts, addPost, users, groups } = useData();
+  const { posts, addPost, users } = useData();
   const { user } = useAuth();
   const navigate = useNavigate();
   

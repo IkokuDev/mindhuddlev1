@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { CalendarEvent } from '../types';
 import { useData } from '../contexts/DataContext';
 import { useAuth } from '../contexts/AuthContext';
-import { Calendar, MapPin, Video, Heart, MessageCircle, Send, Users, Clock, Star, X, Edit2, Save } from 'lucide-react';
+import { MapPin, Video, Heart, MessageCircle, Send, Users, Clock, Star, X, Edit2, Save } from 'lucide-react';
 import ProfileCard from './ProfileCard';
 
 interface EventCardProps {

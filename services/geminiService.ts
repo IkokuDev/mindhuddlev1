@@ -1,6 +1,8 @@
 import { GoogleGenAI } from "@google/genai";
 import { UserProfile } from "../types";
 
+declare const process: any;
+
 // Helper to get safe API client
 const getAiClient = () => {
   const apiKey = process.env.API_KEY;

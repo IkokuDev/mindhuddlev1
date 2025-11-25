@@ -5,7 +5,7 @@ import { useData } from '../contexts/DataContext';
 import { AvailabilityStatus } from '../types';
 import PostCard from '../components/PostCard';
 import EventCard from '../components/EventCard';
-import { MapPin, Briefcase, Link as LinkIcon, Activity, User as UserIcon, Calendar, MessageCircle, Plus, Check, Clock, UserPlus, Sparkles } from 'lucide-react';
+import { MapPin, Briefcase, Activity, User as UserIcon, Calendar, MessageCircle, Plus, Clock, UserPlus, Sparkles } from 'lucide-react';
 import { analyzeCompatibility } from '../services/geminiService';
 import { CURRENT_USER } from '../constants';
 

@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import ProfileCard from '../components/ProfileCard';
-import { SlidersHorizontal, Filter, Search, XCircle, MapPin, Briefcase, X, Sparkles, Globe } from 'lucide-react';
+import { Filter, Search, MapPin, Briefcase, X, Sparkles, Globe } from 'lucide-react';
 import { useData } from '../contexts/DataContext';
 import { useAuth } from '../contexts/AuthContext';
 import { AvailabilityStatus } from '../types';

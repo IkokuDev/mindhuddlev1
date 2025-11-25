@@ -2,11 +2,9 @@ import React, { useState, useMemo } from 'react';
 import { useData } from '../contexts/DataContext';
 import EventCard from '../components/EventCard';
 import { Plus, Search, Calendar as CalendarIcon, MapPin, Monitor, Filter, X } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
 
 const Events: React.FC = () => {
   const { events, addEvent } = useData();
-  const { user } = useAuth();
   
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [filterType, setFilterType] = useState<'all' | 'virtual' | 'in-person'>('all');

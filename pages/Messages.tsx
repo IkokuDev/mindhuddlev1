@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { generateIcebreakers } from '../services/geminiService';
 import { Send, Sparkles, MoreVertical, Phone, Video, Search, MessageSquare } from 'lucide-react';
-import { Conversation, Message } from '../types';
 import { useData } from '../contexts/DataContext';
 import { useAuth } from '../contexts/AuthContext';
 
